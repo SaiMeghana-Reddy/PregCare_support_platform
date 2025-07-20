@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PregCare</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">
+      <img src="pregcare-logo.png" alt="PregCare Logo" />
+      <h1>PregCare</h1>
+    </div>
+    <nav class="menu">
+      <a href="#">Home</a>
+      <a href="#">Login</a>
+      <a href="#" id="aboutLink">About Us</a>
+      <span>⋮</span>
+    </nav>
+  </header>
+
+  <main class="card-container">
+    <div class="card">
+      <h2>Period late?</h2>
+      <p>Check if pregnant or get your periods</p>
+      <button>Click Here!</button>
+    </div>
+    <div class="card">
+      <h2>Pregnancy complications?</h2>
+      <p>Let's guide you throughly</p>
+      <button>Click Here!</button>
+    </div>
+    <div class="card">
+      <h2>First pregnancy?</h2>
+      <p>Here's everything you need to know about being a good mother</p>
+      <button>Click Here!</button>
+    </div>
+    <div class="card">
+      <h2>Meltdown?</h2>
+      <p>Everyone has their own story ,let it out, you're safe with me</p>
+      <button>Click Here!</button>
+    </div>
+    <div class="card">
+      <h2>Vaccination guide</h2>
+      <p>Get to know all about your baby vaccines</p>
+      <button>Click Here!</button>
+    </div>
+    <div class="card">
+      <h2>Baby Growth Tracker</h2>
+      <p>Journal your little one's heart warming moments</p>
+      <button>Click Here!</button>
+    </div>
+  </main>
+
+  <!-- Tip Section -->
+  <div class="tip-section">
+    <h2>🤰 Tip of the day</h2>
+    <p id="tipText"></p>
+  </div>
+
+  <!-- Modal -->
+  <div id="aboutModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2>About Us</h2>
+      <p>We are a dedicated team helping mothers with tips, tools, and emotional support throughout pregnancy.</p>
+    </div>
+  </div>
+
+  <script src="tips.js" defer></script>
+</body>
+</html>
